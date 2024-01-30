@@ -1,0 +1,32 @@
+:host {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #00000080;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.modal {
+  background-color: #ffffff;
+  border-radius: 12px 12px 0 0;
+  max-height: 50vh;
+}
+
+.line {
+  margin: 8px auto;
+  width: 200px;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #00000080;
+}
+
+.content {
+  overflow: auto;
+  // height: calc(50vh - 19px);
+  max-height: calc(50vh - 19px);
+}
